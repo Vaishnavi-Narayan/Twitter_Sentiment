@@ -20,7 +20,6 @@ def main(query, size):
 
     api = tweepy.API(auth, wait_on_rate_limit=True)
 
-
     print("Collecting tweets...")
 
     tweets_array = []
